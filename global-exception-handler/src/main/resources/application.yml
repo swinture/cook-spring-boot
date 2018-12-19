@@ -1,0 +1,7 @@
+spring:
+  mvc:
+    # 如果请求没有对应的处理器，则抛出异常，默认不抛出
+    throw-exception-if-no-handler-found: true
+  resources:
+    # 关闭资源映射
+    add-mappings: false

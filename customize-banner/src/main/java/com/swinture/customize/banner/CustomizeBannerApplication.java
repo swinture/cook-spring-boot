@@ -30,14 +30,15 @@ public class CustomizeBannerApplication {
      * @param args
      */
     public static void main(String[] args) {
+        SpringApplication.run(CustomizeBannerApplication.class, args);
         // 方法一
         /*SpringApplication app = new SpringApplication(CustomizeBannerApplication.class);
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);*/
 
         // 方法二
-        new SpringApplicationBuilder(CustomizeBannerApplication.class)
+        /*new SpringApplicationBuilder(CustomizeBannerApplication.class)
                 .bannerMode(Banner.Mode.OFF)
-                .run(args);
+                .run(args);*/
     }
 }
