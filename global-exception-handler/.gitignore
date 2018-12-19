@@ -17,6 +17,7 @@
 *.ipr
 mvnw*
 .mvn
+*/.DS_Store
 
 ### NetBeans ###
 /nbproject/private/
